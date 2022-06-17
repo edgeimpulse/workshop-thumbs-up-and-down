@@ -11,9 +11,9 @@ import sensor, image, time, tf
 
 # Settings
 model_file = "trained.tflite"           # Location of TFLite model file
-labels_file = "labels.txt"              # Location of labels file
-width = 48                              # Width of frame (pixels)
-height = 48                             # Height of frame (pixels)
+labels_file = "labels.txt"              # Location of labels files
+width = 64                              # Width of frame (pixels)
+height = 64                             # Height of frame (pixels)
 pixel_format = sensor.GRAYSCALE         # This model only supports grayscale
 
 # Configure camera
